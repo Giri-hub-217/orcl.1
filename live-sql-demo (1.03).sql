@@ -1,0 +1,36 @@
+-- select lower (First_name) from hr.EMPLOYEES
+
+-- select Upper(First_name) from hr.EMPLOYEES
+
+--select initcap(First_name) from hr.EMPLOYEES
+
+--select length('oracle') from dual
+-- SELECT ltrim(   'orcl') from dual
+-- SELECT rtrim(   'orcl') from dual
+--SELECT trim(   'orcl'   ) from dual
+-- SELECT lpad (2000,10,1)from dual
+-- SELECT rpad (2000,10,1)from dual
+-- select replace('Oracleadmin','admin','developer') from 
+--SELECT ceil(12.4) from dual
+-- select floor(11.9) from 
+--select round(9.1245) from dual
+-- select round(9.1245,2) from dual
+-- select round(9.1245,0) from dual
+--select round(9.1245,-2) nearest 10 from dual
+--SELECT Abs(-19) from dual
+--select trunc(23.981,1) from dual
+-- SELECT mod(20,3) from dual
+-- select power(2,4) from dual
+-- select sqrt (20) from dual
+--select sign(-20) from dual
+--select exp(1) from dual
+-- SELECT ln(15) from dual
+-- select log(10,10) from dual
+-- SELECT greatest(10,30,20,60) from dual
+-- SELECT least(10,209,33,32) from dual
+--select cos(0) from dual
+-- select acos(1) from dual
+-- select sin(0) from dual
+-- select asin(1) from dual
+-- select tan(0) from dual
+-- select atan(1) from dual
