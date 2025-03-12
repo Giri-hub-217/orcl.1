@@ -1,0 +1,42 @@
+--SELECT sysdate from dual
+-- select systimestamp from dual
+--  select current_date from dual
+--SELECT current_timestamp from dual
+-- select dbtimezone from dual
+--select sysdate,sysdate+7 as nextweek from dual
+--SELECT sysdate,sysdate-17 as previous week from dual
+--select hire_date,hire_date+7 as nextweek from hr.EMPLOYEES
+-- select systimestamp,systimestamp+interval'2' hour from dual
+--select systimestamp,systimestamp+interval'2' minute from dual
+--select systimestamp,systimestamp+interval'2' second from dual
+--select systimestamp,systimestamp+interval'2' year from dual
+--select systimestamp,systimestamp+interval'2' MONTH from dual
+--select systimestamp,systimestamp+interval'2' Day+interval '4' hour from dual
+--SELECT hire_date,EXTRACT(year from hire_date) year,EXTRACT(MONTH from hire_date) month,EXTRACT(day from hire_date) day
+--from hr.EMPLOYEES
+--select add_months (sysdate,7) from dual
+--select hire_date,last_day(hire_date) from hr.employees
+-- select sysdate,next_day(sysdate,'Tuesday') from dual
+--select (months_between (hire_date,sysdate))/12 as yearofexp from hr.employees
+--SELECT To_char(sysdate,'day') from dual
+
+--NVL FUNCTIONS:
+
+--select null from dual
+--select nvl(null,10) from dual
+-- select nvl2(salary,10000)from dual
+--select nvl2(null,1000,2000) from dual
+--select coalesce (null,null,1000,10,null) from dual 
+-- select coalesce(hire_Date,sysdate) from hr.employees 
+
+
+SELECT * from sh.sales
+-- select COUNT(*) as total_transactions from sh.sales
+ --select DISTINCT prod_id as production_id from sh.sales
+--  select * from sh.sales where quantity_sold>5
+--SELECT sum(Amount_sold *quantity_sold)as total_revenue from sh.sales
+--select avg(Amount_sold*quantity_sold) as avg_sale_amount from sh.sales
+-- select amount_sold as sales_transaction from sh.sales order by AMOUNT_SOLD desc FETCH first 5 rows ONLY 
+--select * from sh.sales where prod_id =1001
+--select prod_id,COUNT(transaction_id) as transaction_count from sh.sales group by prod_id
+--select count ( disntinct cust_id) as unique_customers from sh.sales
